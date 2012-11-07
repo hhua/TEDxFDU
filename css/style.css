@@ -35,3 +35,11 @@ div#header div#navbar div.collapse{
 	position: relative;
 	top: 11px;
 }
+
+div#footer #social{
+	padding: 0 auto;
+}
+
+div#footer #designer{
+	text-align: right;
+}
