@@ -1,0 +1,37 @@
+div#container{
+	max-width: 960px;
+}
+
+div#header{
+	max-width: 960px;
+}
+
+div#header{
+	background: none;
+}
+
+div#header .navbar-inner{
+	margin-top: 20px;
+	background: none;
+	border-radius: 0px;
+	border-style: none;
+	box-shadow: none;
+	padding: 0;
+}
+
+div#header #logo{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 0px;
+}
+
+div#header div#navbar{
+	margin-left: 0;
+}
+
+div#header div#navbar div.collapse{
+	vertical-align: middle;
+	position: relative;
+	top: 11px;
+}
