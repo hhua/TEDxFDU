@@ -1,0 +1,10 @@
+p#quote{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 26px;
+}
+
+p#quote-who{
+	position: relative;
+	left: 705px;
+}
