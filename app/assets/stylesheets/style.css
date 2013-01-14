@@ -1,0 +1,93 @@
+div#container{
+	max-width: 960px;
+}
+
+div#header{
+	max-width: 960px;
+}
+
+div#header{
+	background: none;
+}
+
+div#header .navbar-inner{
+	margin-top: 20px;
+	background: none;
+	border-radius: 0px;
+	border-style: none;
+	box-shadow: none;
+	padding: 0;
+}
+
+div#header #logo{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 0px;
+}
+
+div#header div#navbar{
+	margin-left: 0;
+}
+
+div#header div#navbar div.collapse{
+	vertical-align: middle;
+	position: relative;
+	top: 11px;
+}
+
+/*
+Back to top button 
+*/
+#back-top {
+	position: fixed;
+	bottom: 60px;
+	margin-left: -72px;
+}
+#back-top a {
+	width: 26px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #000;
+}
+/* arrow icon (span tag) */
+#back-top span {
+	width: 26px;
+	height: 26px;
+	display: block;
+	margin-bottom: 7px;
+	background: #ddd none no-repeat center center;
+	background-image: url("../img/icons/glyphicons_218_circle_arrow_top.png");
+	/* rounded corners */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+	opacity: 0.3;
+}
+
+#back-top a:hover span {
+	background-color: #777;
+}
+/* End of Back Top Button*/
+
+div#footer #social{
+	padding: 0 auto;
+}
+
+div#footer #designer{
+	text-align: right;
+}

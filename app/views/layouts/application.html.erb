@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<title>TEDxFDU | TEDxFDU</title>
+	<meta name="description" content="">
+	<meta name="author" content="Han Hua">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <%= stylesheet_link_tag    "bootstrap", "bootstrap-responsive", "style" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+<div id="footer" class="row-fluid">
+			<p class="span3">
+				TEDxFDU &copy; 2012. All Rights Reserved. <br />
+				<small>This is an independent <a href="http://www.ted.com/tedx">TEDx</a> event operated under license from <a href="http://www.ted.com">TED</a>.</small>
+			</p>
+			<p id="social" class="span3">
+				<strong>Connect us:</strong>
+				<br />
+				<span><a href="https://www.facebook.com/tedxfdu"><%= image_tag "icons/glyphicons_410_facebook.png", :alt => "Facebook"%></a></span>
+				<span><a href="https://twitter.com/TEDxFDU"><%= image_tag "icons/twitter_icon.png", :alt => "Twitter"%></a></span>
+				<span><a href="http://www.linkedin.com/groups/TEDxFDU-4709763?home=&gid=4709763&trk=anet_ug_hm"><%= image_tag "icons/glyphicons_397_linked_in.png", :alt => "Linkedin"%></a></span>
+				<span><a href="http://www.flickr.com/photos/tedxfdu/galleries/"><%= image_tag "icons/glyphicons_415_flickr.png", :alt => "Flickr"%></a></span>
+			<!--	<span><a href=""><img alt="Youtube"  src="img/icons/youtube_icon.png"></a></span> -->
+				<span><a href="http://weibo.com/tedxfdu"><%= image_tag "icons/sina_icon.gif", :alt => "Weibo"%></a></span>
+				<span><a href="mailto:hi@tedxfdu.com"><%= image_tag "icons/glyphicons_010_envelope.png", :alt => "Email"%></a>
+			</p>
+		<!--	<p class="span3">
+				<strong>Share us:</strong>
+				<br />
+    			<wb:share-button count="n" size="middle" relateuid="2652134221" ></wb:share-button>
+			</p> -->
+			<p id="designer" class="span3 offset3">
+				<small><em>Supported by</em> <a href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a></small>
+			</p>
+		</div>
+		<p id="back-top">
+			<a href="#top"><span></span></a>
+		</p>
+		
+		<%= javascript_include_tag "http://code.jquery.com/jquery-latest.js", "bootstrap.js", "back-to-top.js" %>
+
+	</div><!-- container -->
+
+	<!-- Code for Tracking -->
+	<script type="text/javascript">
+
+  		var _gaq = _gaq || [];
+  		_gaq.push(['_setAccount', 'UA-35271205-2']);
+  		_gaq.push(['_setDomainName', 'tedxfdu.com']);
+  		_gaq.push(['_trackPageview']);
+
+  		(function() {
+    		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		})();
+
+	</script>
+
+<!-- End Document
+================================================== -->
+
+</body>
+</html>
