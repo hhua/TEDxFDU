@@ -3027,3 +3027,375 @@ ActionController::RoutingError (No route matches [GET] "/img/icons/glyphicons_21
 
 
   Rendered /Users/chinesecold/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-14 05:52:18 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 143ms (Views: 142.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-01-14 05:52:20 -0500
+Served asset /bootstrap-responsive.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-14 05:52:20 -0500
+Served asset /style.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/back-to-top.js?body=1" for 127.0.0.1 at 2013-01-14 05:52:20 -0500
+Served asset /back-to-top.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-01-14 05:52:20 -0500
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/img/icons/glyphicons_218_circle_arrow_top.png" for 127.0.0.1 at 2013-01-14 05:52:20 -0500
+
+ActionController::RoutingError (No route matches [GET] "/img/icons/glyphicons_218_circle_arrow_top.png"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.3) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chinesecold/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-14 14:21:55 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 151ms (Views: 150.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-01-14 14:21:56 -0500
+Served asset /bootstrap-responsive.css - 200 OK (3ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-14 14:21:56 -0500
+Served asset /style.css - 200 OK (2ms)
+
+
+Started GET "/assets/back-to-top.js?body=1" for 127.0.0.1 at 2013-01-14 14:21:56 -0500
+Served asset /back-to-top.js - 200 OK (8ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-01-14 14:21:56 -0500
+Served asset /bootstrap.js - 200 OK (8ms)
+
+
+Started GET "/img/icons/glyphicons_218_circle_arrow_top.png" for 127.0.0.1 at 2013-01-14 14:21:57 -0500
+
+ActionController::RoutingError (No route matches [GET] "/img/icons/glyphicons_218_circle_arrow_top.png"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.3) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chinesecold/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-14 14:31:48 -0500
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 63ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2013-01-14 14:31:49 -0500
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.3) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chinesecold/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2013-01-14 14:31:49 -0500
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.3) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chinesecold/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/bootstrap.js" for 127.0.0.1 at 2013-01-14 14:31:49 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/bootstrap.js"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.3) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chinesecold/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-14 14:35:51 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled about.css  (0ms)  (pid 88003)
+Compiled base.css  (0ms)  (pid 88003)
+Compiled bootstrap.css  (1ms)  (pid 88003)
+Compiled home.css  (47ms)  (pid 88003)
+Compiled layout.css  (0ms)  (pid 88003)
+Compiled skeleton.css  (0ms)  (pid 88003)
+Compiled team.css  (0ms)  (pid 88003)
+Compiled application.css  (282ms)  (pid 88003)
+Compiled jquery.js  (3ms)  (pid 88003)
+Compiled jquery_ujs.js  (0ms)  (pid 88003)
+Compiled bootstrap.js  (0ms)  (pid 88003)
+Compiled home.js  (662ms)  (pid 88003)
+Compiled application.js  (843ms)  (pid 88003)
+Completed 200 OK in 1379ms (Views: 1378.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/bootstrap.css" for 127.0.0.1 at 2013-01-14 14:35:52 -0500
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.3) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chinesecold/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at 2013-01-14 14:35:52 -0500
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.3) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chinesecold/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/base.css?body=1" for 127.0.0.1 at 2013-01-14 14:35:52 -0500
+Served asset /base.css - 200 OK (1ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2013-01-14 14:35:52 -0500
+Served asset /about.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-01-14 14:35:52 -0500
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/skeleton.css?body=1" for 127.0.0.1 at 2013-01-14 14:35:52 -0500
+Served asset /skeleton.css - 200 OK (1ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-01-14 14:35:52 -0500
+Served asset /layout.css - 200 OK (2ms)
+
+
+Started GET "/assets/team.css?body=1" for 127.0.0.1 at 2013-01-14 14:35:52 -0500
+Served asset /team.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-01-14 14:35:52 -0500
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-14 14:35:52 -0500
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-14 14:35:52 -0500
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2013-01-14 14:35:52 -0500
+Served asset /style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/back-to-top.js?body=1" for 127.0.0.1 at 2013-01-14 14:35:53 -0500
+Served asset /back-to-top.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-01-14 14:35:53 -0500
+Served asset /bootstrap.js - 200 OK (2ms)
+
+
+Started GET "/javascripts/bootstrap.js" for 127.0.0.1 at 2013-01-14 14:35:53 -0500
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/bootstrap.js"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.3) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chinesecold/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/img/icons/glyphicons_218_circle_arrow_top.png" for 127.0.0.1 at 2013-01-14 14:35:53 -0500
+
+ActionController::RoutingError (No route matches [GET] "/img/icons/glyphicons_218_circle_arrow_top.png"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.3) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/chinesecold/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/chinesecold/.rvm/gems/ruby-1.9.3-p362/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)

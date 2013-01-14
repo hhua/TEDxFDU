@@ -6,8 +6,10 @@
 	<meta name="description" content="">
 	<meta name="author" content="Han Hua">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <%= stylesheet_link_tag    "bootstrap", "bootstrap-responsive", "style" %>
-  <%= csrf_meta_tags %>
+    <link href="stylesheets/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="stylesheets/style.css" rel="stylesheet" media="screen">
+    <%= stylesheet_link_tag "application", :media => "all" %>
+    <%= csrf_meta_tags %>
 </head>
 <body>
 
@@ -42,11 +44,15 @@
 			<a href="#top"><span></span></a>
 		</p>
 		
-		<%= javascript_include_tag "http://code.jquery.com/jquery-latest.js", "bootstrap.js", "back-to-top.js" %>
+         <%= javascript_include_tag "application"%>
+
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="javascripts/bootstrap.js"></script>
 
 	</div><!-- container -->
 
 	<!-- Code for Tracking -->
+
 	<script type="text/javascript">
 
   		var _gaq = _gaq || [];
