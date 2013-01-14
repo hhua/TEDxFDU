@@ -62,6 +62,8 @@ module RailsTry
     # Make sure Bootstrap.css is precompiled
     # config.assets.precompile += %w( bootstrap.css )
 
+    config.assets.compile = true
+
     # Heroku requires this to be false
     config.assets.initialize_on_precompile=false
   end
