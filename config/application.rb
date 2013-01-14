@@ -60,7 +60,7 @@ module RailsTry
     config.assets.version = '1.0'
 
     # Make sure Bootstrap.css is precompiled
-    config.assets.precompile += %w( bootstrap.css )
+    # config.assets.precompile += %w( bootstrap.css )
 
     # Heroku requires this to be false
     config.assets.initialize_on_precompile=false
