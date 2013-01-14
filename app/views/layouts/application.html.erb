@@ -6,8 +6,8 @@
 	<meta name="description" content="">
 	<meta name="author" content="Han Hua">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <%= stylesheet_link_tag "bootstrap", "bootstrap-responsive", "style" %>
-    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag "application", :media => "all" %> 
+ <%= csrf_meta_tags %>
 </head>
 <body>
 
@@ -42,7 +42,7 @@
 			<a href="#top"><span></span></a>
 		</p>
 		
-         <%= javascript_include_tag "http://code.jquery.com/jquery-latest.js", "bootstrap"%>
+         <%= javascript_include_tag "http://code.jquery.com/jquery-latest.js", "bootstrap" %>
 
        
 	</div><!-- container -->
